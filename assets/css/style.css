@@ -1189,3 +1189,14 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+.pdf-icon {
+    font-size: 3rem; /* Adjust size as needed */
+    color: #dc3545; /* PDF icon color, you can change this */
+    margin-bottom: 10px; /* Space between icon and button */
+}
+
+.btn-primary {
+    /* Your existing button styles */
+}
+
