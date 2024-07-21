@@ -1198,7 +1198,7 @@ section .container {
 
 .btn-pdf {
   color:white;
-  border:1.5px solid white;
+  border:2px solid white;
 }
 
 .btn-pdf:hover{
