@@ -1205,39 +1205,3 @@ section .container {
   color:black;
   background-color:white;
 }
-
-.profile-image {
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-  width: 150px; /* Adjust size as needed */
-  height: 150px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 5px solid #fff; /* Optional: Add a border */
-}
-
-.profile-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-@media (max-width: 768px) {
-  .profile-image {
-    position: relative;
-    top: 0;
-    right: 0;
-    transform: none;
-    margin: 0 auto 20px auto;
-    display: block;
-  }
-  
-  header .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
